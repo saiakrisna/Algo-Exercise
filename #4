@@ -1,0 +1,9 @@
+//Algoritma penampil nilai 0 sampai ke-n, n adalah angka yang diinput user, jika yang diinput angka 100 maka tampilan output adalah angka 1-100
+ASSIGN "i" equal 1
+STORE "n" with any value(number)
+
+WHILE "i" <= "n"
+DISPLAY "i"
+ADD 1 to "i"
+STOP until "i" equal "n"
+DISPLAY "i"
