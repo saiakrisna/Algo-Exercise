@@ -1,0 +1,10 @@
+//Algoritma pembanding nilai 
+STORE "angka pertama" with any value
+STORE "angka kedua" with any value
+
+IF "angka pertama" > "angka kedua"
+DISPLAY ("Nilai pertama yang terbesar")
+ else if "angka pertama" < "angka kedua"
+DISPLAY ("Nilai kedua yang terbesar")
+ else  "angka pertama" equal "angka kedua"
+DISPLAY ("Kedua angka bernilai sama")
