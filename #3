@@ -1,0 +1,13 @@
+//Algoritma penghitung harga tiket
+STORE "jumlah traveler" with any value (number)
+STORE "harga tiket" with any value (number)
+STORE "one way" or "two way"
+
+IF "one way"
+	CALCULATE "jumlah traveler" times "harga tiket"
+	SET "harga total" value with calculation result
+	DISPLAY "harga total"
+else if "two way"
+	CALCULATE "harga total" times 2
+	SET "harga total" with calculation result
+	DISPLAY "harga total"
