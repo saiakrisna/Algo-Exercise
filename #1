@@ -1,0 +1,9 @@
+//Algoritma pengkonversi jam ke detik
+#1
+
+STORE "jam" with any value (number)
+STORE "hasil konvert" with any value
+
+CALLCULATE "jam" times 3600
+SET "hasil konvert" value with calculation result
+DISPLAY "hasil konvert"
